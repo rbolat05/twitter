@@ -172,7 +172,6 @@ mlearning_set.to_excel("machine_learning_set.xlsx", index = False)
 
 #########################################################
 
-#ödevi ilk açıkladığınızda olasılık hesaplayanlar ek puan alacak dediğiniz için oluşturduğum kısım
 #olasılık dönmeyi destekleyen modelleri kullanarak bütün veriye ait olasılıkları birleştirir
 modelprobtable = [[] for x in range(len(df))]
 for i in range(len(df)):
